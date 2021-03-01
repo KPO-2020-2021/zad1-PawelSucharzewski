@@ -1,0 +1,3 @@
+Przy konsolidaci i kompilacji na diablo:
+dla gcc program poprawnie podał wartości dla pi oraz e
+dla g++ program zwrócił błąd : "symbol referencing errors"
