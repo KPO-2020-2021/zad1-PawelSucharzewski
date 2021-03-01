@@ -1,0 +1,2 @@
+Program na diablo zadziałał identycznie dla kompilacji gcc oraz g++.
+Przy kompilacji g++ na diablo wyskakiwał błąd do momentu usunięcia -pedantic
