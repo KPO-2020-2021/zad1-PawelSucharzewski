@@ -1,0 +1,4 @@
+Przy konsolidacji i kompilacji na diablo:
+dla gcc program zadziałał poprawnie
+dla g++ już na etapie konsolidacji pliku program.c zwrócony został komunikat o błędzie
+
