@@ -55,5 +55,5 @@
 
    Imię i nazwisko 
    
-   Paweł Sucharzewski 259307
+   Paweł Sucharzewski, 259307
    
