@@ -74,4 +74,5 @@ int main() {
 
   return 0;
 }
+\* Kompialot g++ nie potrzebował dopisania dodatkowej biblioteki matematyczznej (flagi -lm ) podczas kompilacji.   *\
 
