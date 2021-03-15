@@ -125,7 +125,7 @@ int IloscWielkichLiter(char *Tekst)
 
 int main()
 {
-  char *Napis = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
+  char Napis[] = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
   int IloscSpacji;
   int DlugoscSlowaXXX;
   int IloscMaLiter = 0;
@@ -150,3 +150,5 @@ int main()
   printf("\n");
   return 0;
 }
+
+/* W tymn zadiniu po przeczytaniu inforamcji z debugera wystarczyło w zamienic wsyakżnik na napis na tablce */
