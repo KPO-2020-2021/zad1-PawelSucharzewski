@@ -27,22 +27,22 @@ void KonwertujNapis( char *Napis, int *TabKodow, char *TabZnakow, int Rozmiar)
 int main()
 {
   int  IloscKodow = 10;
-  int  Rozmiar = IloscKodow * sizeof('¶');
+  int  Rozmiar = IloscKodow * sizeof(int);
 
   int  *TabKodow = (int*)malloc(Rozmiar);
   char *TabZnakow = (char*)malloc(IloscKodow*sizeof(char)); 
-  char *Napis = strdup("Cze¶æ ¦wiecie!!! ¯yczê mi³ego dnia.");
+  char *Napis = strdup("CzeÅ›Ä‡ Åšwiecie!!! Å»yczÄ™ miÅ‚ego dnia.");
 
-  TabKodow[0] = 'æ';     TabZnakow[0] = 'c';
-  TabKodow[1] = 'ê';     TabZnakow[1] = 'e';
-  TabKodow[2] = '³';     TabZnakow[2] = 'l';
-  TabKodow[3] = '¶';     TabZnakow[3] = 's';
-  TabKodow[4] = '¦';     TabZnakow[4] = 'S';
-  TabKodow[5] = '¯';     TabZnakow[5] = 'Z';
-  TabKodow[6] = '¯';     TabZnakow[6] = 'Z';
-  TabKodow[7] = '¯';     TabZnakow[7] = 'Z';
-  TabKodow[8] = '¯';     TabZnakow[8] = 'Z';
-  TabKodow[9] = '¯';     TabZnakow[9] = 'Z';    
+  TabKodow[0] = 'Ä‡';     TabZnakow[0] = 'c';
+  TabKodow[1] = 'Ä™';     TabZnakow[1] = 'e';
+  TabKodow[2] = 'Å‚';     TabZnakow[2] = 'l';
+  TabKodow[3] = 'Å›';     TabZnakow[3] = 's';
+  TabKodow[4] = 'Åš';     TabZnakow[4] = 'S';
+  TabKodow[5] = 'Å»';     TabZnakow[5] = 'Z';
+  TabKodow[6] = 'Å»';     TabZnakow[6] = 'Z';
+  TabKodow[7] = 'Å»';     TabZnakow[7] = 'Z';
+  TabKodow[8] = 'Å»';     TabZnakow[8] = 'Z';
+  TabKodow[9] = 'Å»';     TabZnakow[9] = 'Z';    
   
   printf("Napis Latin2:  \"%s\"\n",Napis);
 
@@ -52,3 +52,4 @@ int main()
 
   return 0;
 }
+/*bÅ‚ad byÅ‚ spowodowany rÃ³znicÄ… w rozmiarach typach, dla gcc program dziaÅ‚aÅ‚ poprawnie dla g++ juÅ¼ nie*/

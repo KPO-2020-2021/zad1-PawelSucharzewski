@@ -1,5 +1,0 @@
-Program kompilowany wyłącznie na diablo !!!
-
-Przy kompilacji gcc jaki napis Latin2 zamiast polskich znaków diakrytyczbnych zostały wyswitlone pytajniki, jaki napis ascii zostały one zamienione na zwykłe znaki (np ś zamienione na s).
-
-Przy kompilacji g++ jaki napis Latin2 zamiast polskich znaków diakrytyczbnych zostały wyswitlone pytajniki, jako napis ascii wynik był identyczny.
