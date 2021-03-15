@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-double Dodaj();
+double Dodaj(double, double);
 
 
 int main( )
@@ -13,3 +13,5 @@ int main( )
 
   return 0;
 }
+
+/* kompilator języka c++ wymagał dopisanie "double, double" jako argumentów funkcji dodaj */
